@@ -45,14 +45,14 @@
 //     }
 //     return 0.0;
 // }
-double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size)
-{
-    if (nums1Size > nums2Size) {
-        return find(nums2, nums2Size, nums1, nums1Size);
-    } else {
-        return find(nums1, nums1Size, nums2, nums2Size);
-    }
-}
+// double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size)
+// {
+//     if (nums1Size > nums2Size) {
+//         return find(nums2, nums2Size, nums1, nums1Size);
+//     } else {
+//         return find(nums1, nums1Size, nums2, nums2Size);
+//     }
+// }
 int find(int* nums1, int nums1Size, int* nums2, int nums2Size, int index)
 {
     if (nums1Size <= 0) {
