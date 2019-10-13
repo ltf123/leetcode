@@ -4,6 +4,7 @@
  * [29] Divide Two Integers
  */
 //看的别人的解答 还是溢出了好几次 对边界不敏感 对数字不敏感， long...
+//还有右移操作 需要用赋值改变原来的值
 // @lc code=start
 
 int divide(int dividend, int divisor)
